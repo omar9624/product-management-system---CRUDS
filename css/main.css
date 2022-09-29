@@ -1,0 +1,92 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: rgb(7, 7, 7);
+}
+
+input
+{
+    background-color: rgb(36, 36, 36);
+    border: 1px solid rgb(68, 68, 68);
+    padding: 10px;
+    color: whitesmoke;
+}
+input:focus
+{
+    background-color: rgb(12, 12, 12);
+    border: 2px solid rgb(110, 110, 110);
+    outline: none;
+    
+}
+.btn
+{
+    background-color: rgb(36, 36, 255);
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.btn:hover
+{
+    background-color: rgba(36, 36, 255, 0.733);
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.btn-del
+{
+    background-color: rgb(3, 3, 168);
+}
+th
+{
+    color: white;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+td
+{
+    padding: 10px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.767);
+    letter-spacing: 1px;
+}
+small
+{
+    background-color: rgb(255, 44, 44);
+}
+table
+{
+    display: block;
+    overflow: scroll;
+    overflow: auto;
+}
+.delete,
+.update
+{
+    background-color: rgb(255, 36, 36);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    font-weight: bold;
+}
+
+.delete:hover,
+.update:hover
+{
+    background-color: rgb(255, 14, 14);
+}
